@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace TMSCalculator
 {
     internal class Program
-    {
+    {//Калькулятор
         static void Main(string[] args)
         {
 
