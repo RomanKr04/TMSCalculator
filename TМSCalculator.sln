@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TМSCalculator", "TМSCalculator\TМSCalculator.csproj", "{4C0B9696-3D85-4732-A617-1D6C4176D113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TМSCalculator", "TМSCalculator\TМSCalculator.csproj", "{4C0B9696-3D85-4732-A617-1D6C4176D113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TmsArray", "TmsArray", "{BD154C51-24C6-48E5-8DBF-A7C42580BE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMSarray", "ConsoleApp1\TMSarray.csproj", "{FD190388-4111-4BE7-8F58-D557A606A042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{4C0B9696-3D85-4732-A617-1D6C4176D113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C0B9696-3D85-4732-A617-1D6C4176D113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0B9696-3D85-4732-A617-1D6C4176D113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD190388-4111-4BE7-8F58-D557A606A042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD190388-4111-4BE7-8F58-D557A606A042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD190388-4111-4BE7-8F58-D557A606A042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD190388-4111-4BE7-8F58-D557A606A042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD190388-4111-4BE7-8F58-D557A606A042} = {BD154C51-24C6-48E5-8DBF-A7C42580BE0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0733CE00-8284-421A-A665-4B0EAADA5340}
